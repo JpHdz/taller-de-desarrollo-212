@@ -1,0 +1,22 @@
+* {
+  background-color: rgb(116, 175, 226);
+}
+#inicio {
+  font-size: 40px;
+}
+.menu {
+  background-color: blueviolet;
+}
+#empresa {
+  font-size: 80px;
+  color: red;
+}
+.hashbu {
+  width: 20%;
+}
+.img-prueba {
+  width: 300px;
+}
+.rhianna {
+  width: 10%;
+}

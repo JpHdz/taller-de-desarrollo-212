@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+td {
+  border: 5px solid black;
+  padding: 20px;
+
+  /* text-align: center; */
+}
+.titulo-Col {
+  text-align: center;
+}
+.ejemplo {
+  text-align: center;
+}
+.no-padd {
+  padding: 0;
+}
