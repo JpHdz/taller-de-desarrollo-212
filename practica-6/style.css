@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  color: red;
+  text-align: center;
+}
+#para1 {
+  font-size: 40px;
+}
+.seleccionado {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  opacity: 0.5;
+}
+.titulo {
+  font-size: 100px;
+}
+h1,
+p {
+  background-color: cyan;
+}
+div > p {
+  background-color: yellow;
+  border: 10px solid purple;
+  margin-bottom: 300px;
+}
+.titulo:last-of-type {
+  border: 10px solid brown;
+}
+
+p ~ ul {
+  background-color: black;
+  color: white;
+}
+a {
+  display: block;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  background-color: purple;
+  color: white;
+}
+a:active {
+  color: blue;
+}
