@@ -41,5 +41,25 @@
 
     <a href="https://www.google.com.mx/">Google</a>
     <a href="https://www.youtube.com/">You Tube</a>
+    <form name="formulario" method="get" action="envia.html" style="margin-bottom: 300px;">
+        <fieldset>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre">
+        
+         <label for="edad">Edad:</label>
+         <input type="number" name="edad" id="edad">
+        
+         <label for="nivel">Nivel inglés:</label>
+        <meter id="nivel" name="nivel" value="0.1">
+         10%
+        </meter>
+        
+        <br><br><br>
+          <label for="escala">Escala:</label>
+         <input type="range" name="escala" id="escala">
+        
+         <input type="submit" value="Enviar">
+        </fieldset>
+ </form>
   </body>
 </html>
