@@ -66,3 +66,19 @@ p {
   width: 100px;
   height: 100px;
 }
+img {
+  width: 100px;
+}
+.desbordado {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin-bottom: 100px;
+}
+.desbordado-2 {
+  overflow: scroll;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
